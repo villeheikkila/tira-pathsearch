@@ -1,18 +1,18 @@
-interface Node {
-    vertex: number;
-    weight: number;
+interface Nodes {
+  vertex: number;
+  weight: number;
 }
 
 export default class Vertex {
-    vertex: number;
-    nodes: Node[];
+  vertex: number;
+  nodes: Nodes[];
 
-    constructor(vertex: number) {
-        this.vertex = vertex;
-        this.nodes = [];
-    }
+  constructor(vertex: number) {
+    this.vertex = vertex;
+    this.nodes = [];
+  }
 
-    createNode(vertex: number, weight: number) {
-        this.nodes.push({ vertex, weight });
-    }
+  createNode(vertex: number, weight: number) {
+    this.nodes.push({ vertex, weight });
+  }
 }

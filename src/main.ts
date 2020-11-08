@@ -1,5 +1,4 @@
-const argv = require('yargs').argv;
-import Dijkstra from './algorithms/dijkstra';
+import Dijkstra from "./algorithms/dijkstra.ts";
 
 // Temporary stuff
 const dijkstra = new Dijkstra();
@@ -17,8 +16,3 @@ dijkstra.createPath(2, 5, 1);
 dijkstra.createPath(5, 2, 1);
 dijkstra.createPath(5, 4, 1);
 dijkstra.createPath(4, 5, 1);
-
-// Run the code when "dijkstra" is given as a parameter
-if (argv.algo === 'dijkstra') {
-    console.log(dijkstra.path(2, 4));
-}
