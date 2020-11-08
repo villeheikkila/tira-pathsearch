@@ -12,7 +12,10 @@ The project for the Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit co
 
 [Design document](./docs/design_document.md)
 
+[Guide](./docs/guide.md)
+
 ### Weekly reports:
 
 [Weekly report #1](./docs/weekly_report_1.md)
+
 [Weekly report #2](./docs/weekly_report_2.md)
