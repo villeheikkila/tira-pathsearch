@@ -17,4 +17,4 @@ dijkstra.createPath(5, 2, 1);
 dijkstra.createPath(5, 4, 1);
 dijkstra.createPath(4, 5, 1);
 
-console.log(dijkstra.graph);
+console.log(dijkstra.path(2, 4));

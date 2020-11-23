@@ -1,6 +1,6 @@
 ### What I got done this week
 
-Converted the project from Node to Deno. Some typing work on the Dijkstra algorithm.
+Converted the project from Node to Deno. Some typing work on the Dijkstra algorithm. Added initial guide.
 
 ### How did the project progress this week?
 
